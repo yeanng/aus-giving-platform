@@ -5,7 +5,7 @@ import Layout from '../components/Layout'
 import GrantCard from '../components/GrantCard'
 
 export default function Grants() {
-  const [grants, setGrants] = useState<any[]>([])
+  const [grants, setGrants] = useState([])
 
   useEffect(() => {
     const fetchGrants = async () => {
