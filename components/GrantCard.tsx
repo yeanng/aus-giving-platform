@@ -1,3 +1,4 @@
+
 export default function GrantCard({ grant }: { grant: any }) {
   return (
     <div className="border p-4 rounded shadow">
